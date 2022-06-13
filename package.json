@@ -23,7 +23,8 @@
     "start-Dev": "electron .",
     "start-WebPack": "webpack-dev-server --mode development --open --hot",
     "dev": "webpack serve --mode development",
-    "build": "webpack"
+    "build": "webpack",
+    "release":"electron-builder -w"
   },
   "author": "",
   "license": "ISC",
